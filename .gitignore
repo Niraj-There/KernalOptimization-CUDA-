@@ -1,0 +1,29 @@
+# Directories
+Introductory/
+Introduction/
+LR/
+
+# Documentation
+MatMul-Optimizations/Paper.pdf
+
+# Executables and Object files
+MatMul-Optimizations/gpu_optimization_framework.exe
+*.exe
+*.o
+*.out
+
+# VS Code specific
+.vscode/
+*.code-workspace
+
+# CUDA specific
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+# System Files
+.DS_Store
+Thumbs.db
