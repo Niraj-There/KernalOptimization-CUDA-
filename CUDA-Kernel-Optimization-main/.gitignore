@@ -1,0 +1,8 @@
+Introductory/
+Introduction/
+LR/
+MatMul-Optimizations/Paper.pdf
+MatMul-Optimizations/gpu_optimization_framework.exe
+*.exe
+*.o
+*.out
