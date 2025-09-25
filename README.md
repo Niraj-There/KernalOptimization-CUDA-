@@ -21,21 +21,6 @@ This repository demonstrates various GPU optimization techniques through practic
   - Energy efficiency metrics
   - Bandwidth utilization charts
 
-## 🛠️ Project Structure
-
-```
-├── MatMul-Optimizations/
-│   ├── Baseline.cu              # Basic implementation
-│   ├── Final.cu                 # Optimized version
-│   ├── PM_fixes.cu             # Performance monitoring
-│   └── Block Config/            # Performance analysis
-├── Parallel-Reduction/
-│   ├── reduction[0-6].cu       # Progressive optimizations
-│   └── Optimization/           # Jupyter implementations
-└── Reduction-Profiling/
-    └── reduction[0-6]_full.ipynb
-```
-
 ## 📋 Requirements
 
 - NVIDIA GPU with CUDA support
@@ -45,23 +30,6 @@ This repository demonstrates various GPU optimization techniques through practic
   - matplotlib
   - jupyter
 
-## 🚀 Quick Start
-
-### Matrix Multiplication
-
-```bash
-cd MatMul-Optimizations
-nvcc Final.cu -o matmul
-./matmul
-```
-
-### Parallel Reduction
-
-```bash
-cd Parallel-Reduction
-nvcc reduction6.cu -o reduce
-./reduce
-```
 
 ## 📊 Performance Results
 
