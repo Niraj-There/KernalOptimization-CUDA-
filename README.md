@@ -6,8 +6,6 @@
 
 This repository demonstrates various GPU optimization techniques through practical implementations and analysis.
 
-### 🔑 Key Features
-
 - **Matrix Multiplication Optimizations**
   - Baseline implementation
   - Progressive optimization steps
